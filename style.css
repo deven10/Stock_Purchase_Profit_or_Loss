@@ -1,8 +1,63 @@
 body{
+    color: white;
+    background-color: #242B2E;
     text-align: center;
+    font-family: sans-serif;
 }
 
 label{
     display: block;
     padding-bottom: 1rem;
+    width: 80%;
+}
+
+.label, .input{
+    font-size: 22px;
+    font-family: cursive;
+}
+
+.input{
+    width: 50%;
+    color: black;
+    outline: none;
+}
+
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#submit{
+    border: 2px solid white;
+    border-radius: 5px 10px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    outline: none;
+    background-color: fff;
+}
+
+
+#submit:active{
+    transform: scale(0.9);
+}
+
+#output-box{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
 }

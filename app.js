@@ -29,15 +29,15 @@ function calculateProfitAndLoss(initial, quantity, current){
         const fixedLoss = Math.round(loss);
         const lossPercentage = (loss/initial) * 100;
         const fixedLossPercentage = Math.round(lossPercentage);
-       showOutput(`😖 Your loss is ${fixedLoss} and loss percentage is ${fixedLossPercentage}%`);
+       showOutput(`" 😖 Your loss is ${fixedLoss} and loss percentage is ${fixedLossPercentage}% "`);
     } else if(current > initial){
         const profit = (current - initial) * quantity;
         const fixedProfit = Math.round(profit);
         const profitPercentage = (profit/initial) * 100;
         const fixedProfitPercentage = Math.round(profitPercentage);
-       showOutput(`Hey! 😍 Your Profit is ${fixedProfit} and profit percentage is ${fixedProfitPercentage}%`);
+       showOutput(`" Hey! 😍 Your Profit is ${fixedProfit} and profit percentage is ${fixedProfitPercentage}% "`);
     } else{
-       showOutput(`No pain no gain and no gain no pain`);
+       showOutput(`" No pain no gain and no gain no pain "`);
     }
 }
 

@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="content">
     <h1>Stocks Profit or Loss</h1>
-    <main>
-        <label for="initial-price">Initial Value
-            <input id="initial-price" type="number" placeholder="Enter the initial stock price">
+    <main class="main-content">
+        <label class="label" for="initial-price">Initial Value :-
+            <input class="input" id="initial-price" type="number" placeholder="Enter the initial stock price">
         </label>
-        <label for="stocks-quantity">Quantity of Stocks
-            <input type="number" id="stocks-quantity" placeholder="Enter number of stocks bought"> 
+        <label class="label" for="stocks-quantity">Quantity of Stocks :-
+            <input class="input" type="number" id="stocks-quantity" placeholder="Enter number of stocks bought"> 
         </label>
-        <label for="current-price">Current Value
-            <input type="number" id="current-price" placeholder="Enter the current stock price">
+        <label class="label" for="current-price">Current Value :-
+            <input class="input" type="number" id="current-price" placeholder="Enter the current stock price">
         </label>
 
         <button id="submit">Tell Me!!</button>
 
-        <div id="output-box"></div>
     </main>
+    </div>
+    <div id="output-box"></div>
     <script src="app.js"></script>
 </body>
 </html>
