@@ -31,8 +31,8 @@ function checkProfitOrLoss(initial, quantity, current){
     let percentage = y * 100;
     console.log(percentage, "<= percentage");
 
-    if(initial < 0 || current < 0 || quantity < 0){
-        showOutput(`" Please Enter Valid Inputs, Inputs cannot be Empty or Negative "`);
+    if(initial <= 0 || current <= 0 || quantity <= 0){
+        showOutput(" Please Enter Valid Inputs, Inputs cannot be Empty or Negative ");
     }
 
     else if(x > 0){  // If you have made profit run this 
